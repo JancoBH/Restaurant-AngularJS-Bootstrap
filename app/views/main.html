@@ -1,0 +1,253 @@
+
+<section id="main" style="color: white">
+    <div class="container text-center">
+        <section id="logo" style="padding-top: 250px; padding-bottom: 0">
+            <h1>Restaurant</h1>
+            <h2>Luxury Food & Service</h2>
+            <img src="assets/img/slide-bar.png" alt="" style="width: 150px; padding-top: 10px">
+            <h3>Since 1993</h3>
+        </section>
+        <section class="col-xs-12 col-md-12 text-center" style="padding-top: 120px; padding-bottom: 50px">
+            <h4 style="padding: 20px 0">View Our</h4>
+            <a href="#main2" du-smooth-scroll du-scrollspy><span class="btn btn-primary" style="width: 150px">Services</span></a>
+            <a href="#main4" du-smooth-scroll du-scrollspy><span class="btn btn-primary" style="width: 150px">Menu</span></a>
+        </section>
+    </div>
+</section>
+<section id="main2">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="st-feature">
+                            <div ><img src="assets/img/content_dish1.jpg" alt="" height="150px" width="150px"></div>
+                            <strong class="st-feature-title">Best Dishes</strong>
+                            <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="st-feature">
+                            <div><img src="https://artislimited.files.wordpress.com/2012/07/wifi.jpg" alt="" height="150px" width="150px"> </div>
+                            <strong class="st-feature-title">Free Wifi</strong>
+                            <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="st-feature">
+                            <div><img src="assets/img/images.png"alt="" width="150px" height="150px"> </div>
+                            <strong class="st-feature-title">Home Delivery</strong>
+                            <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="st-feature">
+                            <div><img src="assets/img/content_dish4.jpg" alt="" width="150px" height="150px"></div>
+                            <strong class="st-feature-title">Chef Meals</strong>
+                            <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="main3">
+    <br><br>
+    <div class="container">
+        <h1 class="text-center" style="color: #ffb606">
+            Special
+        </h1>
+        <h2 class="text-center" style="color: white">
+            Food
+        </h2>
+    </div>
+    <br><br><br>
+    <data-owl-carousel class="owl-carousel" data-options="{navigation: false, pagination: true, rewindNav : false, autoPlay : true}">
+        <div owl-carousel-item="" ng-repeat="d in data" class="item">
+            <div>
+                <div style=" margin-left: 10%; margin-right: 10%; height: 350px; background-color: #ffb606">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="margin: 0 0; padding: 0 0">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="margin: 0 0; padding: 0 0">
+                            <img class="img-responsive" data-ng-src="{{d.img}}" alt="{{d.titulo}}" style="margin: 0 auto; height: 350px; width: 100%"/>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="color: white">
+                            <h3>{{d.titulo}}</h3>
+                            <h4 class="hidden-xs">
+                                {{d.descripcion}}
+                            </h4>
+                            <h4>
+                                <strong>Price:</strong> 50$
+                            </h4>
+                            <h4>
+                                <strong>Chef:</strong> {{d.autor}}
+                            </h4> <br>
+                            <a href="" style="color: white">
+                                <h4 class="text-center" style="font-weight: bold">
+                                    View Detail
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </data-owl-carousel>
+    <br><br>
+</section>
+<section id="main4" class="services">
+    <div class="services-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+                    <h1>Menu</h1>
+                    <p class="slogan" style="color: black">best and quality food available</p>
+                    <div class="gallery-trigger">
+                        <ul id="myTab" class="nav nav-tabs">
+                            <li><a href="#tab-features" data-toggle="tab" aria-expanded="true">Starters</a></li>
+                            <li class="active"><a href="#extra" data-toggle="tab" aria-expanded="false">Lunch Menu</a></li>
+                            <li><a href="#home-delivery" data-toggle="tab" aria-expanded="false">Dinner Menu</a></li>
+                            <li><a href="#custom" data-toggle="tab" aria-expanded="false">Drinks Menu</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-group visible-xs" id="myTab-accordion"></div>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade" id="tab-features">
+                            <div class="row">
+
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px;">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+
+                            </div>
+                        </div>
+
+                        <!-- Lunch Menu -->
+                        <div class="tab-pane fade active in" id="extra">
+                            <div class="row">
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+                            </div>
+                        </div>
+
+                        <!-- Dinner Menu -->
+                        <div class="tab-pane fade" id="home-delivery">
+                            <div class="row">
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Food</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+                            </div>
+                        </div>
+
+                        <!-- Drinks Menu -->
+                        <div class="tab-pane fade" id="custom">
+                            <div class="row">
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Drink</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Drink</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+                                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" style="padding-bottom: 10px">
+                                    <div class="menu-index" style="border: 1px groove #ffb606; padding: 10px 10px;">
+                                        <h2>Drink</h2>
+                                        <img alt="" src="http://template-html.egprojets.com/food-lover/assets/img/demo/restaurant_menu/08.jpg" height="168" width="188">
+                                        <p>
+                                            Only for
+                                            <span style="background-color: #ffb606; color: white; padding: 2px 2px">10$</span>
+                                        </p>
+                                    </div>
+                                </div><!-- col-xs-12 -->
+                            </div>
+                        </div>
+                    </div><!--/.tan-content-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

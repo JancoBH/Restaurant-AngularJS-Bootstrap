@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Janco - Restaurant | Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no"/>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.min.css" />
+
+        <!-- JS -->
+
+        <!-- Libs-->
+        <script type="text/javascript" src="assets/js/angular.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/angular-scroll.min.js"></script>
+
+        <script src="app.js"></script>
+
+        <!-- controllers -->
+        <script src="app/controllers/mainCtrl.js"></script>
+    </head>
+    <body  ng-app="restaurantApp">
+
+		<header class="navbar navbar-inverse" style="border-radius: 0; margin-bottom: 0; min-height: 40px;">
+
+			<section class="col-lg-12" style="color: white; background-color: #313131; padding-top: 10px">
+				<div class="col-lg-6 text-center">
+					<p>
+						<span class="text-center"><i class="fa fa-map-marker" aria-hidden="true" style="color: #ff9600"></i> 48 NW Miami St 10005</span> -
+						<span class="text-center"><i class="fa fa-phone" aria-hidden="true" style="color: #ff9600"></i> +1 (786) 845 - 1455 </span>
+					</p>
+				</div>
+				<div class="col-lg-6 text-center">
+                        <a  href="#about" du-smooth-scroll du-scrollspy style="color: white"><span>About Us</span></a> -
+                    <a  href="#contact" du-smooth-scroll du-scrollspy style="color: white"><span href="#contact" du-smooth-scroll du-scrollspy>Contact Us</span></a>
+					</p>
+				</div>
+			</section>
+		</header>
+
+		<div ui-view></div>
+
+        <footer>
+            <section id="foot1" style=" color: white;">
+                <div class="col-lg-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <h3 class="footer-title">Menu</h3>
+                                <div class="open-time opening-time">
+                                    <p><strong>Starters</strong></p>
+                                    <p><strong>Lunch</strong></p>
+                                    <p><strong>Dinner</strong></p>
+                                    <p><strong>Drinks</strong></p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <h3 class="footer-title">Opening Hour</h3>
+                                <div class="open-time opening-time">
+                                    <p class="clock-time"><strong>monday :</strong> closed</p>
+                                    <p><strong>tue-fri :</strong> 8am - 12am</p>
+                                    <p><strong>sat-sun :</strong> 7am - 1am</p>
+                                    <p><strong>holydays :</strong> 12pm-12am</p>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-3" id="contact">
+                                <h3 class="footer-title">Contacts</h3>
+                                <div class="address">
+                                    <p class="icon-map"><i class="fa fa-map-marker"></i><strong>address :</strong>  Kendall </p>
+                                    <p class="road-details">48 NW Miami St 10005</p>
+                                    <p><i class="fa fa-phone"></i><strong>phone :</strong> <a href="tel:7072550211">(707) 255-0211</a></p>
+                                    <p><i class="fa fa-envelope"></i><strong>email :</strong><a href="mailto:admin@urbanwine.com"> admin@urbanwine.com</a></p>
+                                </div>
+                                <ul class="list-inline footer-social-list">
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-3" id="about">
+                                <h3 class="footer-title">About Us</h3>
+                                <p>
+                                    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="foot2"  class="navbar navbar-inverse">
+
+                <div class="col-lg-12">
+                    <div class="col-lg-6 text-center">
+                        <p>
+                            <span class="text-center" style="color: #ffb606"> Copyright-2016 </span> <span> Restaurant - JancoBH</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <p>
+                            <span style="color: #ffb606">Created by</span> <span> Janco Boscan</span>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </footer>
+    </body>
+</html>
